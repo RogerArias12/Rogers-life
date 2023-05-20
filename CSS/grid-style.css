@@ -18,3 +18,16 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.life{
+    text-align: center;
+    color: black;
+    background-color: lightcyan;
+}
+.foot{
+    display: grid;
+    background-color: lightcyan;
+    grid-template-columns: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}

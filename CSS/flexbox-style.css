@@ -1,7 +1,37 @@
-.Scary{
+* {
+    
+    box-sizing: border-box;
+}
+
+.box{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
-    margin: 2rem auto;
-    padding: 11px;
-    max-width: 1000px;
+    text-align: center;
+}
+
+.box-item1{
+
+    font-size: 30px;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.box-item2{
+    display: flex;
+    border: 5px solid blue;
+    width: 40%;
+    height: 40%;
+    justify-content: left;
+    align-content: left;
+    padding: 2px;
+    margin: 4px;
+}
+
+.box-item3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkolivegreen;
 }
