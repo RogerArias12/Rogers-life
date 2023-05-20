@@ -1,0 +1,20 @@
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+
+}
+.grid-item{
+    background: rgb(140, 157, 157);
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: aqua;
+}
+.words{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
